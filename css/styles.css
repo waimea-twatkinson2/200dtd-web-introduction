@@ -1,0 +1,54 @@
+/* target the main header only */
+body > header {
+    position: sticky;
+    top: 0;
+    background-color: var(--pico-background-color);
+    box-shadow: 0 0 2rem var(--pico-background-color);
+}
+section#hero{
+    min-height: 20rem;
+    background-image: linear-gradient(to right, #9f8303, hotpink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+}
+section#hero h1{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+section#likes div {
+    background-image: linear-gradient(to right, #9f8303, hotpink);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+section#likes article {
+    background-color: var(--pico-background-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem var(--pico-background-color);
+    flex: 1;
+    min-width: 15rem;
+    max-width: 30rem;
+}
+section#likes footer {
+    background-color: var(--pico-background-color);
+}
+/* demos */
+section.demo div {
+    background-image: linear-gradient(to right, #9f8303, hotpink);
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+section.demo div p {
+    font-size: 5rem;
+    background-image: linear-gradient(to bottom, #9f8303, hotpink);
+    padding: 1rem;
+}
